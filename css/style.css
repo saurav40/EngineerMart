@@ -1,0 +1,132 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: dimgray;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.header{
+    background-color:yellowgreen;
+    text-decoration-color: tomato;
+    /* color:#fff; */
+/*    border-color: #080808;*/
+    min-height: 60px;
+    border: 1px solid transparent;
+}
+
+.inner-header{
+    width:80%;
+    margin:auto;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color:#ededed;
+}
+
+.logo{
+    float: left;
+    height: 50px;
+    padding: 15px;
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    font:italic small-caps bolder 28px arial sans-serif;
+}
+
+.header-link{
+    float:right;
+    font-size:14px;
+    height: 50px;
+    padding: 15px 15px;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+}
+.search-box
+{
+	position: absolute;
+	align-center-left;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background:#2f3640;
+	border-radius:40px;
+	height:40px;
+	padding:10px;
+}
+#content{
+    min-height: 600px;
+}
+
+#banner_image {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/front.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#banner_content {
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo2
+{
+    width: 6%;
+    height: 6%;
+}
+#item_list {
+    padding-top: 50px;
+}
+
+#login-panel .panel-footer{
+    font-weight:bolder;
+}
+
+.category
+{
+    width: 100%;
+    height: 100%;
+}
+.left
+{
+    float: right;
+}
+
+.bg-light-gray
+{
+    background-color:rgba(111,111,111,0.09);
+}
